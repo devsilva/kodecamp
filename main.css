@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mr+De+Haviland&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke:white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.profile-img{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+}
+.main-content{
+   margin:0 auto;
+   width: 60%;
+   display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content >p{
+    font-weight: lighter;
+    font-size:17px;
+    line-height: 2.1;
+}
+.social-icons{
+    margin:70px 0;
+}
+
+.social-icons .instagram{
+    padding: 0 20px;
+}
+
+
+.about-me{
+    display:flex;
+    gap:7%;
+    justify-content: space-between;
+width:100%;
+}
+
+.about-title, .about-content{
+    width: 45%;
+}
+
+.about-title > h1{
+    font-size: 43px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-title > p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-content >p{
+    font-size: 17px;
+    line-height: 1.9;
+}
+.chat-now{
+    display: flex;
+    align-items: center;
+    gap:2%;
+}
+
+.text-center{
+    text-align: center;
+}
+.margin{
+    margin:9% 0;
+}
+.one{
+    font-size: 79px;
+}
+
+.design-block{
+ font-weight: 900;
+ font-size:50px;
+}
+
+.image-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7%;
+}
+.image{
+  width:30%;
+  height: auto;
+  border-radius: 17%;
+  margin:17px;
+
+}
+.learnmore{
+    display:flex;
+    gap:7%;
+    justify-content: center;
+width:84%;
+margin:70px auto;
+}
+
+.learnmore1, .learnmore2{
+    width: 50%;    
+}
+    
+.learnmore1 > p:nth-child(1){
+ font-size: 19px; 
+}
+    
+.learnmore1 > p:nth-child(2){
+line-height: 1.9;
+}
+
+.learnmore2 > p:nth-child(1){
+line-height: 1.9;
+}
+.learnmore2 > p:nth-child(2){
+    font-size: 80px;
+    }
+
+.arrow{
+    margin:10px;
+}
+   
+    button {
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        margin:70px auto;
+        display:flex;
+       align-items: center;
+      }
+
+
+    .signature{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Mr De Haviland', cursive;
+      }
+ .contact-section{
+     display: flex;
+     flex-direction: column;
+     width:90%;
+     margin:0 auto;
+    align-items: center;
+    text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .cs-heading{
+     font-size: 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+ .cs1{
+width:25%;
+font-size:24px;
+ }
+
+.cs2{
+    width:20%;
+    font-weight: 100;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.cs3{
+    width:26%;
+    font-weight: 100;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+ .cs-line{
+     width:20%; 
+     }
+     hr.cs-margin{
+        border: 5px solid white;
+     }
+
+ .profile-img2{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+}
+    
